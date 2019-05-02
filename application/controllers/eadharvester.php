@@ -25,7 +25,9 @@ class eadharvester extends CI_Controller
         $addressline3 = $_POST['addressline3'];
         $addressline4 = $_POST['addressline4'];
         $addressline5 = $_POST['addressline5'];
-        $addresslineArray=array($addressline1 , $addressline2 , $addressline3, $addressline4, $addressline5);
+        $addressline6 = $_POST['addressline6'];
+        $addressline7 = $_POST['addressline7'];
+        $addresslineArray=array($addressline1 , $addressline2 , $addressline3, $addressline4, $addressline5, $addressline6, $addressline7);
         //remove white from agencydoe
         $agencyCode= trim($agencyCode);
         $repoName = $_POST['repoName'];
@@ -235,6 +237,10 @@ class eadharvester extends CI_Controller
                         $b = $dom->createElement('addressline', $addressline4);
                         $address->appendChild($b);
                         $b = $dom->createElement('addressline', $addressline5);
+                        $address->appendChild($b);
+                        $b = $dom->createElement('addressline', $addressline6);
+                        $address->appendChild($b);
+                        $b = $dom->createElement('addressline', $addressline7);
                         $address->appendChild($b);
                     }
 

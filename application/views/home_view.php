@@ -199,6 +199,18 @@ tr#red{
                                 <input type="text" class="form-control" name="addressline5" id="addressline5" placeholder="Other">
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label>Address Line 6</label>
+                            <div class="input-group"> <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+                                <input type="text" class="form-control" name="addressline6" id="addressline6" placeholder="Other">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Address Line 7</label>
+                            <div class="input-group"> <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+                                <input type="text" class="form-control" name="addressline7" id="addressline7" placeholder="Other">
+                            </div>
+                        </div>
 
                         <!--div class="form-group">
                             <label>Select Directory</label>
